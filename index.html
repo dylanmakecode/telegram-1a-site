@@ -16,13 +16,12 @@
   border-radius: 10px;
   width: 100px;
   height: 100px;
-}
-
-.box:hover {
   animation-name: rotate;
   animation-duration: 0.7s;
   animation-iteration-count: 10;
 }
+
+
 
 @keyframes rotate {
   0% {
@@ -75,7 +74,7 @@ function myFunction() {
 }
 
 function showPage() {
-  document.getElementById("box").style.display = "none";
+  document.getElementsByClassName("box").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
