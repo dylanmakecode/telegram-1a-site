@@ -11,6 +11,7 @@ h1 {
   body {
     background-color: #e2dfdf;
     font-family: "Poppins";
+    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
   
   
   }
@@ -122,6 +123,7 @@ h1 {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
+    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
     padding-top: 60px;
   }
   
@@ -130,6 +132,7 @@ h1 {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
+    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
     color: #d6d4d4;
     display: block;
     transition: 0.3s;
@@ -146,11 +149,13 @@ h1 {
   .sidenav a:focus {
     font-size: 30px;
     color: #000000;
+    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
     background-color: #ffffff;
   }
   
   
   .sidenav .closebtn {
+    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
     position: absolute;
     top: 0;
     right: 30px;
