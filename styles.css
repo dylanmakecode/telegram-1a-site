@@ -4,27 +4,27 @@ h1 {
     text-align: center;
     font-family: "Poppins";
     font-weight: normal;
-  }
-  
-  
-  
-  body {
+}
+
+
+
+body {
     background-color: #e2dfdf;
     font-family: "Poppins";
-  
-  
-  }
-  
-  .darkModeContrast {
+
+
+}
+
+.darkModeContrast {
     background-color: #000;
     color: #fff
-  }
-  
-  .darkGrey {
+}
+
+.darkGrey {
     background-color: rgb(58, 58, 58);
-  }
-  
-  #loader {
+}
+
+#loader {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -34,85 +34,85 @@ h1 {
     margin: -76px 0 0 -76px;
     border: 16px solid #3b3177d0;
     border-radius: 50%;
-  
+
     border-top: 16px solid transparent;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 1s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
+}
+
+@-webkit-keyframes spin {
     0% {
-      -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
-  
+
     100% {
-      -webkit-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
-  /* Add animation to "page content" */
-  .animate-bottom {
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatebottom {
+}
+
+@-webkit-keyframes animatebottom {
     from {
-      bottom: -100px;
-      opacity: 0
+        bottom: -100px;
+        opacity: 0
     }
-  
+
     to {
-      bottom: 0px;
-      opacity: 1
+        bottom: 0px;
+        opacity: 1
     }
-  }
-  
-  @keyframes animatebottom {
+}
+
+@keyframes animatebottom {
     from {
-      bottom: -100px;
-      opacity: 0
+        bottom: -100px;
+        opacity: 0
     }
-  
+
     to {
-      bottom: 0;
-      opacity: 1
+        bottom: 0;
+        opacity: 1
     }
-  }
-  
-  #myDiv {
+}
+
+#myDiv {
     display: none;
     text-align: center;
-  }
-  
-  #loader_caption1 {
+}
+
+#loader_caption1 {
     display: block;
     margin-top: 450px;
     text-align: center;
-  }
-  
-  
-  
-  /** theme toggles **/
-  .sidenav::-webkit-scrollbar {
+}
+
+
+
+/** theme toggles **/
+.sidenav::-webkit-scrollbar {
     display: none;
-  }
-  
-  .sidenav {
-  
+}
+
+.sidenav {
+
     height: 100%;
     width: 0;
     position: fixed;
@@ -123,49 +123,63 @@ h1 {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a,
-  .sidenav p {
+}
+
+.sidenav a,
+.sidenav p {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
     color: #d6d4d4;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-  
+}
+
+.sidenav a:hover {
+
     font-size: 30px;
     color: #ffffff;
     background-color: #666666;
-    cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
-  }
-  
-  .sidenav a:focus {
+    /*cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;*/
+}
+
+.sidenav a:focus {
     font-size: 30px;
     color: #000000;
     background-color: #ffffff;
-  }
-  
-  
-  .sidenav .closebtn {
+}
+
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 30px;
     font-size: 36px;
     margin-left: 51px;
-  }
-  
-  @media screen and (max-height: 450px) {
+}
+
+@media screen and (max-height: 450px) {
     .sidenav {
-      padding-top: 15px;
+        padding-top: 15px;
     }
-  
+
     .sidenav p,
     .sidenav a {
-      cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
-      font-size: 18px;
+       /* cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;*/
+        font-size: 18px;
     }
-  }
+
+    .rounded {
+        width: 30px;
+        height: 30px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+    }
+
+    .pointed {
+        width: 7px;
+        height: 7px;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 20rem;
+    }
