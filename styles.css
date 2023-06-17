@@ -193,4 +193,18 @@ body {
 
 
 @keyframes stretch {
-    0% {
+    0% {  
+        opacity: 0.2;
+        background-color: green;
+        border-radius: 100%;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+
+        background-color: red;
+    }
+}
