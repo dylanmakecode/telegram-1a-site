@@ -8,23 +8,53 @@
   <style>
     body {
       background-color: rgba(0, 191, 255, 0.753);
-        margin-left: 20px
+      margin-left: 20px
     }
 
     h1 {
       color: navy;
-    
+
+    }
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      /* Safari */
+      animation: spin 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
   </style>
 </head>
 
 <body>
+  <h2>How To Create A Loader</h2>
 
-  <h1>The title of the site</h1>
-  <h2>Section Title</h2>
-  <p> this is a title loh </p>
-  <p<b>Update Log: 001</b></p>
-
+  <div class="loader"></div>
+  
 </body>
 
 </html>
