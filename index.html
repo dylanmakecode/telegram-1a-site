@@ -11,70 +11,73 @@
       font-family: 'Montserrat', sans-serif;
       user-select: none;
       cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
-      
+
     }
   </style>
 </head>
 
 <body>
 
-  <div id="mySidenav" class="sidenav" onload="getfocusDG()" >
+  <div id="mySidenav" class="sidenav" onload="getfocusDG()">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <p>Toggle Cursor</p>
     <hr>
     >
     <p style="font-size:10px;">Preview <b style="cursor:default">default</b></p>
     <a href="javascript:void(0)" onclick="openCursorChangingPanel()">Change Cursor</a>
-    
+
 
   </div>
-  
-  <div id="myCursorChanging" class="sidenav" onload="getfocusDG()" >
+
+  <div id="myCursorChanging" class="sidenav" onload="getfocusDG()">
     <a href="javascript:void(0)" class="closebtn" style="font: size 20px;" onclick="closeCursorNav()">Back &times;</a>
     <p>Toggle Cursor</p>
     <hr>
-    
+
     <a href="javascript:void(0)" style="cursor:default" onclick="setCursorToMSDefault()">Windows Default</a>
-    <a href="javascript:void(0)" style=" cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
-    onclick="location.reload();">Restore Website Default</a>
-    <p style=" font-size:10px">On hovering above these buttons, your mouse cursor will change. On <b style="color:red">clicking, your mouse cursor will change although you closed this sidebar. Please note that 'Restore default' will also let the website theme change to default(grey)</b></p>
-    
+    <a href="javascript:void(0)" style=" cursor: url(" https://www.tutorialrepublic.com/examples/images/custom.gif"),
+      url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto; onclick="location.reload();">Restore
+      Website Default</a>
+    <p style=" font-size:10px">On hovering above these buttons, your mouse cursor will change. On <b
+        style="color:red">clicking, your mouse cursor will change although you closed this sidebar. Please note that
+        'Restore default' will also let the website theme change to default(grey)</b></p>
+
 
   </div>
 
   <h2>TELEGRAM 1A</h2>
   <p>Meet the new website, for 1A 2023/2024</p>
-  <h3>Announcments</h3>
+  <h3 style="color:darkblue;font-style: italic;">Announcments</h3>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
   <script>
 
 
     function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-function closeCursorNav() {
-  document.getElementById("myCursorChanging").style.width = "0px";
-  document.getElementById("mySidenav").style.width = "250px";
+    function closeCursorNav() {
+      document.getElementById("myCursorChanging").style.width = "0px";
+      document.getElementById("mySidenav").style.width = "250px";
 
-}
+    }
 
-function openCursorChangingPanel() {
-  document.getElementById("mySidenav").style.width = "0px";
-  document.getElementById("myCursorChanging").style.width = "250px";
+    function openCursorChangingPanel() {
+      document.getElementById("mySidenav").style.width = "0px";
+      document.getElementById("myCursorChanging").style.width = "250px";
 
-}
+    }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0px";
-}
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0px";
+    }
 
-function setCursorToMSDefault(){
-  document.body.style.cursor ="default";
+    function setCursorToMSDefault() {
+      document.body.style.cursor = "default";
 
 
-}
+    }
 
 
 
