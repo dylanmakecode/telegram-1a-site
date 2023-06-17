@@ -1,7 +1,8 @@
 # TELEGRAM 1A YUHUA - SITE AND ANNOUNCEMENT
 This is a readme.md file, enjoy coding!
 
-Developers, https://github.dev/dylanmakecode/telegram-1a-site/blob/main/index.html 
+Developers, The source code editor is : https://github.dev/dylanmakecode/telegram-1a-site/blob/main/index.html 
+View full source code for website : [Click the Link](view-source:https://dylanmakecode.github.io/telegram-1a-site/)
 
 Enjoy programming!
 
