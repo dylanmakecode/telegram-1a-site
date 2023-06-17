@@ -1,80 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #4c9c9c;
-  border-radius: 50%;
-  border-top: 16px solid transparent;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
-</style>
+  <title>ds</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      user-select: none;
+      cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
+      
+    }
+  </style>
 </head>
-<body onload="myFunction()" style="margin:0;">
 
-<div id="loader"></div>
+<body>
 
-<div style="display:none;" id="myDiv" class="animate-bottom">
-  <h2>Tada!</h2>
-  <p>Some text in my newly loaded page..</p>
-</div>
+  <div id="mySidenav" class="sidenav" onload="getfocusDG()" >
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p>Toggle Theme</p>
+    <hr>
+    <a href="#" style="font-size: 30px;color: #000000;background-color: #eeeeee;"> Grey</a>
+    <a href="#">Light</a>
+    <a href="#">Contrast</a>
+    <p style="font-size:10px;title:'the current item is grayed out'">The current theme is grayed out.<br>In default theme & dark theme,all cursor is changed so no pointer effects. Preview <b style="cursor:default">default</b></p>
+    
 
-<script>
-var myVar;
+  </div>
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  <h2>Animated Sidenav Example</h2>
+  <p>Click on the element below to open the side navigation menu.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+  <script>
+
+
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
 }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px";
 }
-</script>
+  </script>
 
 </body>
+
 </html>
