@@ -10,47 +10,41 @@
     body {
       font-family: 'Montserrat', sans-serif;
       user-select: none;
-      /*cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;*/
-
+      cursor: url("https://www.tutorialrepublic.com/examples/images/custom.gif"), url("https://www.tutorialrepublic.com/examples/images/custom.cur"), auto;
+      
     }
   </style>
 </head>
 
 <body>
-  <script src="script_cursor.js"></script>
-  <div class="cursor small"></div>
-  <div class="cursor big"><div>
-    <div>
 
-      <div id="mySidenav" class="sidenav" onload="getfocusDG()">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <p>Toggle Themes</p>
-        <hr>
-        <a href="#" style="font-size: 30px;color: #000000;background-color: #eeeeee;"> Grey</a>
-        <a href="#">Light</a>
-        <a href="#">Contrast</a>
-        <p style="font-size:10px; ">The current theme is grayed out.<br>In default
-          theme & dark theme,all cursor is changed so no pointer effects. Preview <b style="cursor:default">default</b>
-        </p>
+  <div id="mySidenav" class="sidenav" onload="getfocusDG()" >
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p>Toggle Theme</p>
+    <hr>
+    <a href="#" style="font-size: 30px;color: #000000;background-color: #eeeeee;"> Grey</a>
+    <a href="#">Light</a>
+    <a href="#">Contrast</a>
+    <p style="font-size:10px;title:'the current item is grayed out'">The current theme is grayed out.<br>In default theme & dark theme,all cursor is changed so no pointer effects. Preview <b style="cursor:default">default</b></p>
+    
 
+  </div>
 
-      </div>
+  <h2>Animated Sidenav Example</h2>
+  <p>Click on the element below to open the side navigation menu.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-      <h2>Animated Sidenav Examples</h2>
-      <p>Click on the element below to open the side navigation menu.</p>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-      <script>
+  <script>
 
 
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0px";
-        }
-      </script>
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px";
+}
+  </script>
 
 </body>
 
