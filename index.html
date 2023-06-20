@@ -90,7 +90,7 @@
         </li>
         <li class="item">
           <i class="uil uil-link-alt"></i>
-          <span>Get Link</span>
+          <span onlick="copylink()">Copy Link</span>
         </li>
         <li class="item">
           <i class="uil uil-edit"></i>
@@ -111,7 +111,12 @@
   </div>
   <script src="rcc.js"></script>
   <script>
-
+    function copylink() {
+      var copyText = document.getElementById("myInput");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText("https://dylanmakecode.github.io/telegram-1a-site/index.html?");
+    }
 
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
