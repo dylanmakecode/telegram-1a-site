@@ -2,20 +2,46 @@
 <html>
 
 <head>
-<title>Share to your friends</title>    <!-- styles here-->
+    <title>Share to your friends</title> <!-- styles here-->
     <style>
-        p:hover ,p:focus{
+        p:hover,
+        p:focus {
             background-color: black;
             color: aliceblue;
         }
 
-        body{
+        body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
-        h3{
-          border: black;  
-          border-radius: 2px;
+        h3 {
+            border: black;
+            border-radius: 2px;
+        }
+
+
+        .button-33 {
+            background-color: #c2fbd7;
+            border-radius: 100px;
+            box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+            color: green;
+            cursor: pointer;
+            display: inline-block;
+            font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+            padding: 7px 20px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 250ms;
+            border: 0;
+            font-size: 16px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-33:hover {
+            box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+            transform: scale(1.05) rotate(-1deg);
         }
     </style>
 </head>
@@ -23,9 +49,15 @@
 <body>
     <h2>Share this link to your friends!</h2>
     <h3>Click me to copy link</h3>
-    <p>Or copy the link below mannually</p>
+    <button class="button-33" role="button" onclick="copyLink()">Button 33</button>
+    <h3>Or copy the link below mannually</h3>
     <p style="font-family: Verdana;">https://dylanmakecode.github.io/telegram-1a-site/index.html? </p>
     <!-- document here -->
+    <script>
+        function copyLink() {
+
+        }
+    </script>
 </body>
 
 </html>
