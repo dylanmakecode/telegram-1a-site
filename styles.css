@@ -219,3 +219,20 @@ body {
   background-color: #045faa;
   color: white;
 }
+
+
+#newestannounce {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  border-radius:15px;
+  transition:0.2s;
+}
+
+#newestannounce:hover {
+
+  box-shadow: 13px 15px;
+  background-color: #EEEEEE;
+  border-radius:18px;
+  
+}
