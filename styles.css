@@ -197,6 +197,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  transition: 1s;
 }
 
 .topnav a {
