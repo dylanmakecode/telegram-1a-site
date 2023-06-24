@@ -16,14 +16,7 @@ body {
 
 }
 
-.darkModeContrast {
-  background-color: #000;
-  color: #fff
-}
 
-.darkGrey {
-  background-color: rgb(58, 58, 58);
-}
 
 #loader {
   position: absolute;
