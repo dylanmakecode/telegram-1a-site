@@ -197,7 +197,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  transition: 1s;
+  
 }
 
 .topnav a {
@@ -207,6 +207,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: 1s;
 }
 
 .topnav a:hover {
