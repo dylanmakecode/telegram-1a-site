@@ -2,25 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-.wrapper{
+.wrapper {
   visibility: hidden;
   position: absolute;
   width: 300px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
 }
-.wrapper .menu{
+
+.wrapper .menu {
   padding: 10px 12px;
 }
-.content .item{
+
+.content .item {
   list-style: none;
   font-size: 22px;
   height: 50px;
@@ -32,7 +34,8 @@
   margin-bottom: 2px;
   padding: 0 5px 0 10px;
 }
-.content .items{
+
+.content .items {
   list-style: none;
   font-size: 22px;
   height: 50px;
@@ -44,24 +47,29 @@
   margin-bottom: 2px;
   padding: 0 5px 0 10px;
 }
-.content .item:hover{
+
+.content .item:hover {
   background: #f2f2f2;
 }
-.content .item span{
+
+.content .item span {
   margin-left: 8px;
   font-size: 19px;
 }
-.content .setting{
+
+.content .setting {
   display: flex;
   margin-top: -5px;
   padding: 5px 12px;
   border-top: 1px solid #ccc;
 }
-.content .share{
+
+.content .share {
   position: relative;
   justify-content: space-between;
 }
-.share .share-menu{
+
+.share .share-menu {
   position: absolute;
   background: #fff;
   width: 200px;
@@ -71,10 +79,11 @@
   opacity: 0;
   pointer-events: none;
   border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   transition: 0.2s ease;
 }
-.share:hover .share-menu{
+
+.share:hover .share-menu {
   opacity: 1;
   pointer-events: auto;
 }

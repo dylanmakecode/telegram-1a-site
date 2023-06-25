@@ -5,10 +5,12 @@
   <title>
     Archived
   </title>
+  <link rel="stylesheet" href="rightclickcontent.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
     .footer {
       position: fixed;
       left: 0;
@@ -26,8 +28,8 @@
 
     }
 
-   
-    
+
+
 
     .topnav {
       overflow: hidden;
@@ -61,21 +63,20 @@
 
     body {
       font-family: "Poppins";
-      margin:0;
+      margin: 0;
     }
 
-    .archiveDescription{
+    .archiveDescription {
       font-size: 15px;
-      color:#AAA;
+      color: #AAA;
       transition: 0.5s;
 
     }
 
-    .archiveDescription:hover{
-      color:#666;
-      
+    .archiveDescription:hover {
+      color: #666;
+
     }
-    
   </style>
 </head>
 
@@ -98,6 +99,68 @@
     <a style="font-size:10px;color:white" href="https://dylanmakecode.github.io/telegram-1a-site/index.html? ">Home</a>
 
   </div>
+
+
+  <div class="wrapper">
+    <div class="content">
+      <ul class="menu">
+        <li class="item">
+          <i class="uil uil-back"></i>
+          <span onclick="history.back()">Back</span>
+        </li>
+        <li class="item">
+          <i class="uil uil-dev-alt"></i>
+          <span onclick="window.location.href = 'https://github.com/dylanmakecode/telegram-1a-site';">View
+            source code</span>
+        </li>
+
+        <li class="item share">
+          <div>
+            <i class="uil uil-share"></i>
+            <span>Share</span>
+          </div>
+          <i class="uil uil-angle-right"></i>
+          <ul class="share-menu">
+
+            <li class="item">
+              <i class="uil uil-telegram-alt"></i>
+              <span onclick="window.location.href = 'cplink.html';">Telegram</span>
+            </li>
+
+
+
+            <li class="item">
+              <i class="uil uil-whatsapp-alt"></i>
+              <span onclick="window.location.href = 'cplink.html';">Whatsapp</span>
+            </li>
+            <div class="setting">
+              <li class="item">
+                <i class="uil uil-cursor"></i>
+                <span onclick="window.location.href = 'cplink.html';">Others...</span>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li class="item">
+          <i class="uil uil-link-alt"></i>
+          <span onclick="window.location.href = 'cplink.html';">Copy Link</span>
+        </li>
+      </ul>
+      <div class="setting">
+        <li class="item">
+          <i class="uil uil-cursor"></i>
+          <span style="font-size: 18px;" onclick="openNav()" style="font-size: 15px;">Customize your
+            cursor</span>
+
+
+        </li>
+        <li class="items">
+          <i class="uil uil-warning"></i>
+          <span style="font-size: 10px;cursor:default">Menu malfunction? Try to reload the page</span>
+      </div>
+    </div>
+  </div>
+  <script src="rcc.js"></script>
 
 </body>
 
