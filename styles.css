@@ -1,17 +1,22 @@
 /* Place your CSS styles in this file */
 
 h2,h3 {
-  text-align: center;
+
   font-family: "Poppins";
   font-weight: normal;
 }
 
+h2{
+  text-align: center;
+}
 
 
 h4 {
   font-family: "Poppins";
   font-weight: normal;
   transition: 1s;
+  color:#f2f2f2;
+  text-align:center;
 }
 
 h4:hover{
