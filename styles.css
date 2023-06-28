@@ -8,6 +8,17 @@ h2,h3 {
 
 
 
+h4 {
+  font-family: "Poppins";
+  font-weight: normal;
+  transition: 1s;
+}
+
+h4:hover{
+  color:#333;
+  font-size: 15px;
+}
+
 body {
   /*background-color: #e2dfdf;*/
   font-family: "Poppins";
