@@ -112,6 +112,51 @@
         background-color: #013d68;
         color: white;
       }
+
+
+
+      .icon-bar {
+        position: fixed;
+        top: 50%;
+
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: all 0.4s ease;
+
+      }
+
+      .icon-bar:hover {
+        margin-left: 0px;
+        background-color: #EEE;
+        display: block;
+        border-radius: 20px;
+      }
+
+
+      .icon-bar a {
+
+        background-color: rgba(5, 5, 300, 0.17);
+        display: block;
+        text-align: center;
+        padding: 16px;
+        border-radius: 20px;
+        transition: all 0.15s ease;
+        color: rgba(5, 5, 300, 1);
+        font-size: 20px;
+      }
+
+      .icon-bar a:hover {
+        background-color: rgba(5, 5, 300, 0.3);
+        color: rgb(5, 5, 300);
+        border-radius: 50%;
+      }
+
+      .icon-bar a:active {
+        background-color: #000;
+        color: white;
+
+      }
   </style>
 </head>
 
@@ -127,106 +172,107 @@
 
   </div>
 
-  
-
-<div class="icon-bar">
-  <a href="#" title="Home"><i class="fa fa-home"></i></a> 
-  <a href="#" title="Share"><i class="fa fa-share"></i></a>
-  <a href="#" title="Show Right-click menu"><i class="fa fa-list"></i></a> 
-  
-
-</div>
-
-<div class="content">
-  
-  <h2>Archived Announcments</h2>
-  <p class="noArchive">No archived yet</p>
 
 
+  <div class="icon-bar">
+    <a href="#" title="Home"><i class="fa fa-home"></i></a>
+    <a href="#" title="Share"><i class="fa fa-share"></i></a>
+    <a href="#" title="Show Right-click menu"><i class="fa fa-list"></i></a>
 
-  <div id="newestannounce">
-    <h1>YUHUA RUN</h1>
-    <p style="font-size: 10px;">This post is Archived!</p>
+
+  </div>
+
+  <div class="content">
+
+    <h2>Archived Announcments</h2>
+    <p class="noArchive">No archived yet</p>
+
+
+
+    <div id="newestannounce">
+      <h1>YUHUA RUN</h1>
+      <p style="font-size: 10px;">This post is Archived!</p>
+      <hr>
+      <p style="font-size: larger;"><b>Important!</b></p>
+      <p><b>Date:</b> 27 June 2023 (Tuesday)</p>
+      <p><b>Venue:</b> school hall</p>
+      <p><span style="color:grey">WEAR YOUR 'RUMAH PASUKAN' CLOTHES</span></p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <hr>
-    <p style="font-size: larger;"><b>Important!</b></p>
-    <p><b>Date:</b> 27 June 2023 (Tuesday)</p>
-    <p><b>Venue:</b> school hall</p>
-    <p><span style="color:grey">WEAR YOUR 'RUMAH PASUKAN' CLOTHES</span></p>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <hr>
-  <p class="archiveDescription">Announcments posted after 30 days/1 month will recycled to here.</p>
+    <p class="archiveDescription">Announcments posted after 30 days/1 month will recycled to here.</p>
 
 
 
-  <form action="index.html">
-    <button type="submit" class="button button1">Back</button>
-  </form>
-  <div class="footer">
-    <p>1A Telegram Announcment Group</p>
-    <a style="font-size:10px;color:white" href="https://dylanmakecode.github.io/telegram-1a-site/index.html? ">Home</a>
+    <form action="index.html">
+      <button type="submit" class="button button1">Back</button>
+    </form>
+    <div class="footer">
+      <p>1A Telegram Announcment Group</p>
+      <a style="font-size:10px;color:white"
+        href="https://dylanmakecode.github.io/telegram-1a-site/index.html? ">Home</a>
 
-  </div>
-
-
-  <div class="wrapper">
-    <div class="content">
-      <ul class="menu">
-        <li class="item">
-          <i class="uil uil-back"></i>
-          <span onclick="history.back()">Back</span>
-        </li>
-        <li class="item">
-          <i class="uil uil-dev-alt"></i>
-          <span onclick="window.location.href = 'https://github.com/dylanmakecode/telegram-1a-site';">View
-            source code</span>
-        </li>
-
-        <li class="item share">
-          <div>
-            <i class="uil uil-share"></i>
-            <span>Share</span>
-          </div>
-          <i class="uil uil-angle-right"></i>
-          <ul class="share-menu">
-
-            <li class="item">
-              <i class="uil uil-telegram-alt"></i>
-              <span onclick="window.location.href = 'cplink.html';">Telegram</span>
-            </li>
+    </div>
 
 
+    <div class="wrapper">
+      <div class="content">
+        <ul class="menu">
+          <li class="item">
+            <i class="uil uil-back"></i>
+            <span onclick="history.back()">Back</span>
+          </li>
+          <li class="item">
+            <i class="uil uil-dev-alt"></i>
+            <span onclick="window.location.href = 'https://github.com/dylanmakecode/telegram-1a-site';">View
+              source code</span>
+          </li>
 
-            <li class="item">
-              <i class="uil uil-whatsapp-alt"></i>
-              <span onclick="window.location.href = 'cplink.html';">Whatsapp</span>
-            </li>
-            <div class="setting">
-              <li class="item">
-                <i class="uil uil-cursor"></i>
-                <span onclick="window.location.href = 'cplink.html';">Others...</span>
-              </li>
+          <li class="item share">
+            <div>
+              <i class="uil uil-share"></i>
+              <span>Share</span>
             </div>
-          </ul>
-        </li>
-        <li class="item">
-          <i class="uil uil-link-alt"></i>
-          <span onclick="window.location.href = 'cplink.html';">Copy Link</span>
-        </li>
-      </ul>
-      <div class="setting">
+            <i class="uil uil-angle-right"></i>
+            <ul class="share-menu">
 
-        <li class="items">
-          <i class="uil uil-warning"></i>
-          <span style="font-size: 10px;cursor:default">Menu malfunction? Try to reload the page</span>
+              <li class="item">
+                <i class="uil uil-telegram-alt"></i>
+                <span onclick="window.location.href = 'cplink.html';">Telegram</span>
+              </li>
+
+
+
+              <li class="item">
+                <i class="uil uil-whatsapp-alt"></i>
+                <span onclick="window.location.href = 'cplink.html';">Whatsapp</span>
+              </li>
+              <div class="setting">
+                <li class="item">
+                  <i class="uil uil-cursor"></i>
+                  <span onclick="window.location.href = 'cplink.html';">Others...</span>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <li class="item">
+            <i class="uil uil-link-alt"></i>
+            <span onclick="window.location.href = 'cplink.html';">Copy Link</span>
+          </li>
+        </ul>
+        <div class="setting">
+
+          <li class="items">
+            <i class="uil uil-warning"></i>
+            <span style="font-size: 10px;cursor:default">Menu malfunction? Try to reload the page</span>
+        </div>
       </div>
     </div>
+    <script src="rcc.js"></script>
   </div>
-  <script src="rcc.js"></script>
-</div>
 
 </body>
 
