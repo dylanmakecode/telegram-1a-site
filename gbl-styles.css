@@ -10,6 +10,7 @@ body{
 }
 
 .topnav a {
+    font-family: "Poppins";
     float: left;
     color: #ffffff;
     text-align: center;
