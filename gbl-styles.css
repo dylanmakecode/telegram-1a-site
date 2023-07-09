@@ -24,3 +24,15 @@
     color: white;
 }
 
+.head{
+    background-color: #045faa;
+    padding: 20px;
+    text-align: center;
+    transition: 0.8s;
+    color:white;
+}
+
+.head:hover{
+    background-color: #013d68;
+    color: white;
+}
